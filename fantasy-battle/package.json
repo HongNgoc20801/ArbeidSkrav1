@@ -1,0 +1,20 @@
+{
+  "name": "fantasy-battle",
+  "version": "1.0.0",
+  "description": "Fantasy Battle Game",
+  "main": "app.js",
+
+  "scripts": {
+    "start": "parcel index.html",
+    "test": "jest"
+  },
+  "devDependencies": {
+    "@testing-library/dom": "^9.3.0",
+    "@testing-library/jest-dom": "^6.6.3",
+    "jest": "^29.7.0",
+    "parcel": "^2.10.0"
+  },
+  "jest": {
+    "testEnvironment": "jsdom"
+  }
+}
